@@ -1,0 +1,17 @@
+/*
+how to call libraries
+*/
+
+
+#include<LiquidCrystal.h> // calling the liquid crystal libraries
+#include<SD.h>  // calling the SD card libraries
+#include<DHT.h>
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
