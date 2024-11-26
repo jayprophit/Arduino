@@ -1,0 +1,29 @@
+/*
+bool/ boolean only holds 2 values, true or false, on or off, high low, 1 or 0, 
+note anything other then 0 is considered as true!!!
+*/
+/*
+bool myBool =1;
+bool myBool =HIGH;
+bool myBool =true;
+// 1, HIGH, true all hold the same value
+bool myBool =0;
+bool myBool =LOW;
+bool myBool =false;
+// 0, LOW, false all hold the same value
+*/
+
+
+bool myBool =1;
+void setup() {
+    // put my setup code here, to run once:
+    Serial.begin(9600);
+    
+    Serial.println(myBool);
+    Serial.println();
+   
+}
+
+void loop() {
+    // put my setup code here, to run repeatedly:
+}
