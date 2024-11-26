@@ -1,6 +1,8 @@
 /*
 variables are used for storing nsimple numbers, this dose not include decimals
 */
+
+
 int myVariable = 6;
 void setup() {
     // put my setup code here, to run once:
